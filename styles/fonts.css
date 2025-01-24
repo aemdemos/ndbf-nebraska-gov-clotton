@@ -1,14 +1,5 @@
 
 @font-face {
-  font-family: "Glyphicons Halflings";
-  src: url('../fonts/glyphicons-halflings-normal-normal.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  unicode-range: U+0-10FFFF;
-}
-
-@font-face {
   font-family: Roboto;
   src: url('../fonts/roboto-400-normal.woff2') format('woff2');
   font-weight: 400;
@@ -27,6 +18,15 @@
 }
 
 @font-face {
+  font-family: FontAwesome;
+  src: url('../fonts/fontawesome-normal-normal.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
   font-family: ultra-light;
   src: url('../fonts/ultra-light-normal-normal.otf') format('otf');
   font-weight: normal;
@@ -36,8 +36,8 @@
 }
 
 @font-face {
-  font-family: FontAwesome;
-  src: url('../fonts/fontawesome-normal-normal.woff2') format('woff2');
+  font-family: "Glyphicons Halflings";
+  src: url('../fonts/glyphicons-halflings-normal-normal.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

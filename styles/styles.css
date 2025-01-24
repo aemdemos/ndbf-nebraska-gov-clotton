@@ -33,17 +33,6 @@
 
 /* fallback fonts */
 @font-face {
-  font-family:"Glyphicons Halflings Fallback";
-  font-style:normal;
-  font-weight:normal;
-  src:local("Arial");
-  ascent-override:108.33%;
-  descent-override:10.25%;
-  line-gap-override:0.00%;
-  size-adjust:100.00%;
-}
-
-@font-face {
   font-family:"Roboto Fallback";
   font-style:normal;
   font-weight:400;
@@ -66,6 +55,17 @@
 }
 
 @font-face {
+  font-family:"FontAwesome Fallback";
+  font-style:normal;
+  font-weight:normal;
+  src:local("Arial");
+  ascent-override:85.71%;
+  descent-override:14.29%;
+  line-gap-override:0.00%;
+  size-adjust:100.00%;
+}
+
+@font-face {
   font-family:"ultra-light Fallback";
   font-style:normal;
   font-weight:normal;
@@ -77,12 +77,12 @@
 }
 
 @font-face {
-  font-family:"FontAwesome Fallback";
+  font-family:"Glyphicons Halflings Fallback";
   font-style:normal;
   font-weight:normal;
   src:local("Arial");
-  ascent-override:85.71%;
-  descent-override:14.29%;
+  ascent-override:108.33%;
+  descent-override:10.25%;
   line-gap-override:0.00%;
   size-adjust:100.00%;
 }
